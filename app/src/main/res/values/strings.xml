@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Projet Pokédex</string>
+    <string name="voirDetails">Détails</string>
+    <string name="num_pokemon">Numéro du Pokémon</string>
+    <string name="nom_pokemon">Nom du Pokémon</string>
+    <string name="poids_pokemon">Poids du Pokémon</string>
+</resources>
