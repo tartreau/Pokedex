@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void obtenirDonneesListe(int offset) {
         PokeapiService service = retrofit.create(PokeapiService.class);
-        Call<PokemonReponse> PokemonReponseCall = service.ObtenirListePokemon(5, offset);
+        Call<PokemonReponse> PokemonReponseCall = service.ObtenirListePokemon(30, offset);
 
         PokemonReponseCall.enqueue(new Callback<PokemonReponse>() {
             @Override

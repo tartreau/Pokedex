@@ -46,13 +46,13 @@ public class activity_un_pokemon extends AppCompatActivity {
         TextView nom = (TextView) findViewById(R.id.nom_du_pokemon);
         nom.setText(nomPokemon);
 
-/*        retrofit = new Retrofit.Builder()
+/*
+
+        retrofit = new Retrofit.Builder()
                 //.baseUrl("http://pokeapi.co/api/v2")
                 .baseUrl("http://pokeapi.co/api/v2" +numero.getText())
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();*/
-
-
         //obtenirDonneesUnItem(Integer.parseInt(monId));
 
 
