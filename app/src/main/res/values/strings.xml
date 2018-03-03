@@ -4,4 +4,12 @@
     <string name="num_pokemon">Numéro du Pokémon</string>
     <string name="nom_pokemon">Nom du Pokémon</string>
     <string name="poids_pokemon">Poids du Pokémon</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="button_api">API</string>
+    <string name="button_database">BDD</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
 </resources>

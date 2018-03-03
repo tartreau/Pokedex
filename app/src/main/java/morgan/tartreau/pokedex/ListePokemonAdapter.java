@@ -18,10 +18,7 @@ import java.util.ArrayList;
 
 import morgan.tartreau.pokedex.models.Pokemon;
 
-/**
- *
- *
- */
+
 public class ListePokemonAdapter extends RecyclerView.Adapter<ListePokemonAdapter.ViewHolder> {
 
 

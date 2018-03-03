@@ -5,6 +5,7 @@ import android.nfc.Tag;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -84,6 +85,18 @@ public class activity_un_pokemon extends AppCompatActivity {
             }
         });
     }*/
+
+    public void startBDDActivity(View view){
+        Log.i("UserAcvitity", "button pressed");
+        Intent intentBDD = new Intent(this, BDDActivity.class);
+        startActivity(intentBDD);
+    }
+
+    public void startAPIActivity(View view){
+        Log.i("UserAcvitity", "button pressed");
+        Intent intentAPI = new Intent(this, MainActivity.class);
+        startActivity(intentAPI);
+    }
 
 }
 

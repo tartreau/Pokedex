@@ -10,8 +10,9 @@ import morgan.tartreau.pokedex.models.PokemonReponse;
  *
  */
 //on utilise l'API Pokeapi
+
 public interface PokeapiService {
-//on utilise le paramètre GET de Pokéapi et on construit le reste de l'url pour afficher les pokémon
+    //on utilise le paramètre GET de Pokéapi et on construit le reste de l'url pour afficher les pokémon
     @GET("pokemon")
     //pour lister les Pokémon
     Call<PokemonReponse> ObtenirListePokemon(@Query("limit") int limit, @Query("offset") int offset); //liste
